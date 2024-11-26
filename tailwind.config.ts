@@ -13,6 +13,8 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      borderWidth: { 6: '6px' },
+      colors: { violet: { 25: '#fcfaff' } },
       gridTemplateColumns: {
         app: 'minmax(18rem, 20rem) 1fr',
         profile: 'max-content 1fr max-content',
